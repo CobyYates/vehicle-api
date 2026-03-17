@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare"
+  },
+  "dependencies": {
+    "nuxt": "^4",
+    "vue": "^3.5",
+    "vuetify": "^4",
+    "@mdi/font": "^7"
+  },
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2",
+    "sass-embedded": "^1"
+  }
+}
